@@ -1,0 +1,25 @@
+{
+  "name": "kontent-custom-element-sendpulse",
+  "version": "1.0.0",
+  "description": "Sendpulse Mailing List integration for Kentico Kontent",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strizr/kontent-custom-element-sendpulse.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strizr/kontent-custom-element-sendpulse/issues"
+  },
+  "homepage": "https://github.com/strizr/kontent-custom-element-sendpulse#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

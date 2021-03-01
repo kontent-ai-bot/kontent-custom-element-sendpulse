@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 8px;
+}
+.selector {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  z-index: 101;
+  background-color: white;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.selector .logo {
+  max-height: 40px;
+  margin-left: 10px;
+}
+.spacer {
+  height: 50px;
+}
+.title {
+  padding-bottom: 5px;
+  color: #ccc;
+}
+.title .text {
+  margin-right: 8px;
+}
+.title--selected {
+  color: #000;
+}
+.remove:hover {
+  color: red;
+}
