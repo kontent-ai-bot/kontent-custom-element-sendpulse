@@ -54,7 +54,7 @@ Netlify has made this easy. If you click the deploy button below, it will guide 
 2. ### Netlify/server setup
     Since you don't want to store the API secret inside of the custom element config, we are using [Netlify function](https://docs.netlify.com/functions/overview/) to act as a proxy between your custom element and the Sendpulse API. In order to make the function work, you'll need to provide it with the **Secret** you obtained in the previous step. For that, we'll use Netlify's [Build enrionment variable](https://docs.netlify.com/configure-builds/environment-variables/). The only issue with these variables are that they are being loaded on build, so whenever you **change the variables**, you'll need to **manually trigger a rebuild**. 
 
-    The expected variable name for the function is `SENDUPLSE_API_SECRET`.
+    The expected variable name for the function is `SENDPULSE_API_SECRET`.
 
     How this all can be done is described in our [Kontent-Netlify example repository](https://github.com/Kentico/kontent-netlify-webhook-processor#setup), or can be observed on the animation below.
 
