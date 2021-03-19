@@ -67,12 +67,11 @@ Netlify has made this easy. If you click the deploy button below, it will guide 
 
 ```
 {
-    "apiId": "<YOUR SENDPULSE API ID>",
-    "functionUrl": "<YOUR NETLIFY FUNCTION URL>"
+    "apiId": "<YOUR SENDPULSE API ID>"
 }
 
 ```
-_The functionUrl should be equal to your custom element's Hosted URL with `/.netlify/functions/sendpulse-client` added to it (if you are using the provided quick deploy)._
+_The functionUrl should be equal to your custom element's Hosted URL with `/.netlify/functions/sendpulse-client` added to it (if you are using the provided quick deploy). If you decide to deploy the element differently, you'll have to update the element's code._
 
 ## What is Saved
 
