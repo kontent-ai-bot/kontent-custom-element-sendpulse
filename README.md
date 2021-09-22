@@ -11,7 +11,7 @@
 [![GitHub Discussions][discussion-shield]](https://github.com/Kentico/Home/discussions)
 
 <p align="center">
-<image src="docs/01-kk-logo-main.svg" alt="kontent logo" width="300" />
+<image src="docs/kk-logo.svg" alt="kontent logo" width="250" />
 <image src="docs/sendpulse-logo.png" 
 alt="sendpulse logo" width="400">
 </p>
@@ -27,10 +27,10 @@ alt="sendpulse logo" width="400">
   <a href="#additional-resources">Resources</a>
 </p>
 
-This repository contains the source code of SendPulse mailing list selector custom element for Kentico Kontent. 
+This repository contains the source code of SendPulse mailing list selector custom element for Kontent by Kentico. 
 
 ## Features
-The custom element allows linking a ceratin mailing list from Sendpulse with your content in Kentico Kontent. This allows for linking together pages/forms with specific mailing lists in order to add collected contacts to those maling lists. 
+The custom element allows linking a ceratin mailing list from Sendpulse with your content in Kontent by Kentico. This allows for linking together pages/forms with specific mailing lists in order to add collected contacts to those maling lists. 
 
 When an mailing list is selected, its ID can be used in a POST request to SendPulse to add one or multiple email adresses to the mailing list. **The POST request is not part of the custom element.**
 
@@ -75,7 +75,7 @@ _The functionUrl should be equal to your custom element's Hosted URL with `/.net
 
 ## What is Saved
 
-Mailing lists are retrieved in an array of mailing list objects. After selecting a mailing list from SendPulse the object is saved in Kentico Kontent.
+Mailing lists are retrieved in an array of mailing list objects. After selecting a mailing list from SendPulse the object is saved in Kontent.
 For more information see: https://sendpulse.com/br/integrations/api/bulk-email.
 
 ```
@@ -119,7 +119,7 @@ We have collected notes on how to contribute to this project in [CONTRIBUTING.md
 ## Additional Resources
 
 - [Custom Element Gallery on github](https://kentico.github.io/kontent-custom-element-samples/gallery/)
-- [Kentico Kontent's Integration documentation](https://docs.kontent.ai/tutorials/develop-apps/integrate/integrations-overview)
+- [Kontent's Integration documentation](https://docs.kontent.ai/tutorials/develop-apps/integrate/integrations-overview)
 - [Custom Element documentation](https://docs.kontent.ai/tutorials/develop-apps/integrate/content-editing-extensions)
 - [Custom Element API reference](https://docs.kontent.ai/reference/custom-elements-js-api)
 
