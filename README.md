@@ -1,3 +1,6 @@
+## :warning: Deprecation notice
+> This repository has been archived and is no longer maintained.
+
 [![Core integration][core-shield]](https://kontent.ai/integrations/sendpulse)
 [![Gallery][gallery-shield]](https://kentico.github.io/kontent-custom-element-samples/gallery/)
 
